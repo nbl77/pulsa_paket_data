@@ -1,0 +1,37 @@
+2020-07-28 11:39:38.994  INFO 13228 --- [main] com.java.project.ProjectApplication      : Starting ProjectApplication on Nbl with PID 13228 (C:\Users\Personal\IdeaProjects\project\target\classes started by Personal in C:\Users\Personal\IdeaProjects\project)
+2020-07-28 11:39:38.998  INFO 13228 --- [main] com.java.project.ProjectApplication      : No active profile set, falling back to default profiles: default
+2020-07-28 11:39:41.841  INFO 13228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-28 11:39:41.881  INFO 13228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-28 11:39:41.882  INFO 13228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-28 11:39:42.127  INFO 13228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-28 11:39:42.128  INFO 13228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3004 ms
+2020-07-28 11:39:42.820  INFO 13228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2020-07-28 11:39:43.959  INFO 13228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-28 11:39:43.972  INFO 13228 --- [main] com.java.project.ProjectApplication      : Started ProjectApplication in 5.722 seconds (JVM running for 6.458)
+2020-07-28 11:39:50.908  INFO 13228 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-28 11:39:50.909  INFO 13228 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-28 11:39:50.921  INFO 13228 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-07-28 11:39:52.306  INFO 13228 --- [pool-3-thread-4] c.j.p.B.Controller.ReceiverController    : [*]Receive data from client
+2020-07-28 11:39:52.307  INFO 13228 --- [pool-3-thread-4] c.j.p.B.Controller.ReceiverController    : [*]Processing data.
+2020-07-28 12:40:53.231  INFO 10656 --- [main] com.java.project.ProjectApplication      : Starting ProjectApplication on Nbl with PID 10656 (C:\Users\Personal\IdeaProjects\project\target\classes started by Personal in C:\Users\Personal\IdeaProjects\project)
+2020-07-28 12:40:53.235  INFO 10656 --- [main] com.java.project.ProjectApplication      : No active profile set, falling back to default profiles: default
+2020-07-28 12:40:57.443  INFO 10656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-28 12:40:57.461  INFO 10656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-28 12:40:57.461  INFO 10656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-28 12:40:57.590  INFO 10656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-28 12:40:57.591  INFO 10656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4277 ms
+2020-07-28 12:40:58.190  INFO 10656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2020-07-28 12:40:59.326  INFO 10656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-28 12:40:59.344  INFO 10656 --- [main] com.java.project.ProjectApplication      : Started ProjectApplication in 7.466 seconds (JVM running for 8.376)
+2020-07-28 12:41:34.936  INFO 10656 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-28 12:41:34.938  INFO 10656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-28 12:41:34.962  INFO 10656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-07-28 12:41:35.030  WARN 10656 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.java.project.RestAPI.Controller.MainController.SendData(java.lang.String)]
+2020-07-28 13:00:05.224  INFO 10656 --- [pool-3-thread-4] c.j.p.B.Controller.ReceiverController    : [*]Receive data from client
+2020-07-28 13:00:05.231  INFO 10656 --- [pool-3-thread-4] c.j.p.B.Controller.ReceiverController    : [*]Processing data.
+2020-07-28 13:00:22.648  INFO 10656 --- [pool-3-thread-5] c.j.p.B.Controller.ReceiverController    : [*]Receive data from client
+2020-07-28 13:00:22.649  INFO 10656 --- [pool-3-thread-5] c.j.p.B.Controller.ReceiverController    : [*]Processing data.
+2020-07-28 13:00:47.091  INFO 10656 --- [pool-3-thread-6] c.j.p.B.Controller.ReceiverController    : [*]Receive data from client
+2020-07-28 13:00:47.091  INFO 10656 --- [pool-3-thread-6] c.j.p.B.Controller.ReceiverController    : [*]Processing data.
+2020-07-28 13:01:31.654  INFO 10656 --- [pool-3-thread-7] c.j.p.B.Controller.ReceiverController    : [*]Receive data from client
+2020-07-28 13:01:31.655  INFO 10656 --- [pool-3-thread-7] c.j.p.B.Controller.ReceiverController    : [*]Processing data.
